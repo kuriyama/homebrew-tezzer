@@ -1,17 +1,17 @@
 class Tezzer < Formula
   desc "Lightweight, SSH-like terminal transport with persistent sessions and automatic reconnection"
   homepage "https://github.com/kuriyama/tezzer"
-  version "0.0.2"
+  version "0.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kuriyama/tezzer/releases/download/v0.0.2/tezzer_darwin_arm64.tar.gz"
-      sha256 "adb9e53df8b8f4ae4ec7cbf4abb10159af671895ad4175715356cd80b42933fe"
+      url "https://github.com/kuriyama/tezzer/releases/download/v0.1.0/tezzer_darwin_arm64.tar.gz"
+      sha256 "b1845654814a8b47c57f138f734c9cc148e85a96df2f2da7eda57842887352a2"
     end
     on_intel do
-      url "https://github.com/kuriyama/tezzer/releases/download/v0.0.2/tezzer_darwin_amd64.tar.gz"
-      sha256 "ed997dadc06393cb6d718d8e3bbdd2fe9b9fec6f7f705a036d3e89aa9d1e93d7"
+      url "https://github.com/kuriyama/tezzer/releases/download/v0.1.0/tezzer_darwin_amd64.tar.gz"
+      sha256 "cd26c85d5166caca8f0a912690e27039f87a57c92e24f1ab04972d3b1b5785de"
     end
   end
 
